@@ -9,9 +9,13 @@
 </head>
 <body>
     <div class="container">
-        <h2>Welcome to Dashboard</h2>
+        <h2>Welcome, <span id="userName"></span></h2>
+        <p>Email:<span id="userEmail"></span></p>
         <p>You have successfully logged in.</p>
-        <a href="index.html" class="link" >Logout</a>
+        <button id="logoutBtn">Logout</button>
+        <!-- <a href="index.html" class="link" >Logout</a> -->
     </div>
+<script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+<script src="js/welcome.js"></script>
 </body>
 </html>
