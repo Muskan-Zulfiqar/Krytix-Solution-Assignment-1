@@ -9,16 +9,19 @@
 </head>
 <body>
     <div class="container">
-        <h2>Reister</h2>
-        <form action="#">
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
-            <input type="password" placeholder="Confirm Password" required />
+        <h2>Register</h2>
+        <form action="#" id="registerForm">
+            <input type="text" id="name" placeholder="Full Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
             <button type="submit">Register</button>
+            <p id="message" style="color: red;"></p>
             <p>Already have an account?<a href="index.html" class="link">Login</a></p>
         </form>
     </div>
+
+<script src="/js/register.js"></script>
     
 </body>
 </html>
